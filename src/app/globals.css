@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.sect1 {
+  background-image: url("/photo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 80vh;
+  width: auto;
+}
