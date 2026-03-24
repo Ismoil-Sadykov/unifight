@@ -10,7 +10,7 @@ import Link from 'next/link'
 export default function Footer() {
     const pathname = usePathname()
 
-    const isActive = (path) => pathname === path
+    const isActive = (path: string) => pathname === path
 
     const activeStyle = {
         color: "#FF0000",
