@@ -54,8 +54,9 @@ export default function Home() {
           >
             ILHOMZODA PARVIZ - Мастер спорта по универсальному бою, с более чем 10-летним опытом в боевых искусствах.
           </p>
-          <button
-            className="mt-3 py-2 rounded-lg font-semibold transition"
+          <a
+            href="tel:+992075497979"
+            className="mt-3 py-2 rounded-lg font-semibold text-center transition block"
             style={{
               background: "linear-gradient(90deg, #8E0000, #ff1a1a)",
               color: "white",
@@ -63,7 +64,7 @@ export default function Home() {
             }}
           >
             Записаться на тренировку
-          </button>
+          </a>
 
         </div>
       </div>
@@ -125,12 +126,17 @@ export default function Home() {
         </h1>
 
         <div className="flex gap-6 mb-10 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
-          <a href="https://wa.me/075497979"
-            target="_blank"
-            rel="noopener noreferrer"
+          <a href="tel:+992075497979"
             className="underline decoration-gray-700 underline-offset-4">Contacts</a>
           <a href="#" className="underline decoration-gray-700 underline-offset-4">Motto</a>
-          <a href="#" className="underline decoration-gray-700 underline-offset-4">Privacy</a>
+          <a
+            href="https://instagram.com/team.sirojov"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline decoration-gray-700 underline-offset-4"
+          >
+            Instagram
+          </a>
         </div>
 
         <p className="text-[9px] text-gray-600 uppercase tracking-tighter mb-10">

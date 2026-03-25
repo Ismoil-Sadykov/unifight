@@ -41,13 +41,16 @@ export default function Header() {
                 UNIFIGHT
             </p>
 
-            <CallIcon
-                style={{
-                    color: '#8E0000',
-                    fontSize: '32px',
-                    filter: "drop-shadow(0 0 6px rgba(142,0,0,0.8))"
-                }}
-            />
+            <a href="tel:+992075497979">
+                <CallIcon
+                    style={{
+                        color: '#8E0000',
+                        fontSize: '32px',
+                        filter: "drop-shadow(0 0 6px rgba(142,0,0,0.8))",
+                        cursor: "pointer"
+                    }}
+                />
+            </a>
 
         </div>
     )

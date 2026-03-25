@@ -170,12 +170,16 @@ export default function About() {
           <h2 className="mb-10 font-serif text-3xl font-black uppercase leading-tight tracking-tight text-white md:text-5xl">
             Готов к<br /> испытанию?
           </h2>
-          <button className="group relative w-full overflow-hidden rounded-md bg-gradient-to-b from-[#e66465] to-[#911d1d] py-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(220,38,38,0.4)] active:scale-95">
+          <a
+            href="tel:+992075497979"
+            className="group relative w-full overflow-hidden rounded-md bg-gradient-to-b from-[#e66465] to-[#911d1d] py-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(220,38,38,0.4)] active:scale-95 block text-center"
+          >
             <span className="relative z-10 text-sm font-black uppercase tracking-[0.2em] text-[#2b0505]">
               вступить в строй
             </span>
+
             <div className="absolute inset-0 z-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-          </button>
+          </a>
         </div>
         <div className="flex flex-col items-center gap-8">
           <div className="font-serif text-2xl font-black italic tracking-widest text-red-600/80">
@@ -185,8 +189,10 @@ export default function About() {
             {['CONTACTS', 'MOTTO', 'PRIVACY'].map((link) => (
               <a
                 key={link}
-                href="#"
-                className="text-xs font-bold tracking-[0.2em] text-gray-500 transition-colors hover:text-white"
+                href="https://t.me/ilhomzodaparviz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-gray-500 hover:text-white"
               >
                 {link}
               </a>

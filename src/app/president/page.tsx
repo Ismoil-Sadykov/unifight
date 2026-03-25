@@ -76,28 +76,37 @@ export default function President() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center p-6 mb-5 font-sans">
-        <button className="group relative w-full overflow-hidden rounded-md bg-gradient-to-b from-[#e66465] to-[#911d1d] py-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(220,38,38,0.4)] active:scale-95">
+        <a
+          href="tel:+992075497979"
+          className="group relative w-full overflow-hidden rounded-md bg-gradient-to-b from-[#e66465] to-[#911d1d] py-5 transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(220,38,38,0.4)] active:scale-95 text-center"
+        >
           <span className="relative z-10 text-sm font-black uppercase tracking-[0.2em] text-[#2b0505]">
             СВЯЗАТЬСЯ С КОМАНДИРОМ
           </span>
-        </button>
+        </a>
+      </div>
 
-        <div className="flex flex-col items-center gap-8 mt-10">
-          <div className="font-serif text-2xl font-black italic tracking-widest text-red-600/80">
-            UNIFIGHT
-          </div>
+      <div className="flex flex-col items-center gap-8 mt-10">
+        <div className="font-serif text-2xl font-black italic tracking-widest text-red-600/80">
+          UNIFIGHT
+        </div>
 
-          <nav className="flex gap-8">
-            {['CONTACTS', 'MOTTO', 'PRIVACY'].map((link) => (
-              <a key={link} href="#" className="text-xs text-gray-500 hover:text-white">
-                {link}
-              </a>
-            ))}
-          </nav>
+        <nav className="flex gap-8">
+          {['CONTACTS', 'MOTTO', 'PRIVACY'].map((link) => (
+            <a
+              key={link}
+              href="https://t.me/ilhomzodaparviz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-gray-500 hover:text-white"
+            >
+              {link}
+            </a>
+          ))}
+        </nav>
 
-          <div className="text-center text-[10px] text-gray-600">
-            © 2026 UNIFIGHT
-          </div>
+        <div className="text-center text-[10px] text-gray-600">
+          © 2026 UNIFIGHT
         </div>
       </div>
     </div>
