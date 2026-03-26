@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UNIFIGHT",
-  description: "Универсальный бой - это современное боевое искусство, сочетающее в себе элементы различных стилей и техник. Наша миссия - обучать и вдохновлять людей на достижение физической и ментальной силы через универсальный бой. Мы стремимся создать сообщество, где каждый может развиваться, преодолевать свои границы и достигать своих целей в боевых искусствах.",
+  title: "UNIFIGHT – Универсальный бой",
+  description: "Тренировки по универсальному бою в Таджикистане. Сила, выносливость, дисциплина.",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
@@ -26,10 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ru"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-screen flex flex-col pb-[80px]">
         <Header />
         {children}
         <Footer />
