@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "UNIFIGHT – Универсальный бой",
   description: "Тренировки по универсальному бою в Таджикистане. Сила, выносливость, дисциплина.",
   viewport: "width=device-width, initial-scale=1",
+  verification: {
+    google: "google3d0b5ecc73205155"
+  }
 };
 
 export default function RootLayout({
