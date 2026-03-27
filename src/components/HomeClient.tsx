@@ -35,7 +35,7 @@ export default function HomeClient() {
                         className="text-base"
                         style={{ color: "#ff4d4d", textShadow: "0 0 6px rgba(255,0,0,0.6)" }}
                     >
-                        Онлайн тренировки по универсальному бою с ILHOMZODA PARVIZ
+                        Тренировки по универсальному бою с ILHOMZODA PARVIZ
                     </p>
                     <p
                         className="text-sm leading-relaxed"
@@ -44,7 +44,7 @@ export default function HomeClient() {
                         ILHOMZODA PARVIZ – мастер спорта по универсальному бою с более чем 10-летним опытом в боевых искусствах. Развивайте силу, выносливость и боевой дух под профессиональным руководством.
                     </p>
                     <a
-                        href="tel:+992075497979"
+                        href="tel:+9920 75497979"
                         className="mt-3 py-2 rounded-lg font-semibold text-center transition block"
                         style={{
                             background: "linear-gradient(90deg, #8E0000, #ff1a1a)",
