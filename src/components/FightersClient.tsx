@@ -11,6 +11,7 @@ export default function FightersClient() {
         { name: "Бежан Нурматов", year: 2009, rank: "Кандидат мастер спорта", img: "/fighter1.jpg" },
         { name: "Умар Назаров", year: 2009, rank: "Кандидат мастер спорта", img: "/fighter3.jpg" },
         { name: "Толибчон Рачабов", year: 2009, rank: "Кандидат мастер спорта", img: "/fighter4.jpg" },
+        { name: "Шамил Абдурахмонов", year: 2011, rank: "Кандидат мастер спорта", img: "/fighter8.jpg" },
         { name: "Абдулло", year: 2007, rank: "Мастер спорт", img: "/fighter5.jpg" },
     ];
 
