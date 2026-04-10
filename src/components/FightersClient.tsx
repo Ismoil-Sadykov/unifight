@@ -12,7 +12,7 @@ export default function FightersClient() {
         { name: "Умар Назаров", year: 2009, rank: "Кандидат мастер спорта", img: "/fighter3.jpg" },
         { name: "Толибчон Рачабов", year: 2009, rank: "Кандидат мастер спорта", img: "/fighter4.jpg" },
         { name: "Шамил Абдурахмонов", year: 2011, rank: "Кандидат мастер спорта", img: "/fighter8.jpg" },
-        { name: "Абдулло", year: 2007, rank: "Мастер спорт", img: "/fighter5.jpg" },
+        { name: "Абдулло Давлатзода", year: 2007, rank: "Мастер спорт", img: "/fighter5.jpg" },
     ];
 
     return (
